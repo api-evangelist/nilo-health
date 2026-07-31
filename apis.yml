@@ -1,7 +1,29 @@
 aid: nilo-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nilo-health.png
 name: Nilo Health
-description: Nilo Health is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nilo Health (nilo.health) is a Berlin-based employee mental health platform
+  that helps businesses support their workforce's mental well-being. Founded in
+  2019 by Ines Raeth, Catalina Turlea and Jonas Keil, nilo gives teams access to
+  500+ psychologists for 1:1 video counseling in 50+ languages, alongside
+  self-guided digital programs, group roundtables, and an HR analytics
+  dashboard. It is delivered to employers as a company benefit (SaaS) rather than
+  through a public developer API; there is no published developer portal, API
+  reference, SDKs, or OpenAPI at this time. nilo integrates with HR platforms
+  such as Personio and Lano via partner marketplaces, and publishes a trust
+  center citing ISO/IEC 27001. The company is backed by Speedinvest and was
+  added to the API Evangelist network as a Speedinvest portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/nilo-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mental Health
+- Health
+- HR
+- Employee Benefits
+- Well-being
+- Telehealth
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nilo-health-domain-security.yml
+- type: Website
+  url: https://nilohealth.com/
+- type: Pricing
+  url: https://nilohealth.com/pricing/
+- type: Blog
+  url: https://nilohealth.com/resources/blog/
+- type: PrivacyPolicy
+  url: https://nilohealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://app.nilohealth.com/terms-of-use
+- type: Login
+  url: https://app.nilohealth.com/
+- type: Support
+  url: mailto:support@nilohealth.com
+- type: TrustCenter
+  url: security/nilo-health-trust-center.yml
+- type: Compliance
+  url: https://nilohealth.com/trust/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nilo-health
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

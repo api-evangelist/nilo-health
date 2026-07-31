@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://nilohealth.com/trust/
+notes: >-
+  Direct fetch of the trust page is blocked by a SiteGround captcha wall
+  (returns an sgcaptcha challenge, not the page body), so the probe could not
+  verify keywords in-body. The certification below is captured from search-engine
+  snippets of the trust page and nilo's public security messaging, not a direct
+  page fetch.
+url: https://nilohealth.com/trust/
+certifications:
+- ISO/IEC 27001
+evidence:
+- source: https://nilohealth.com/trust/
+  kind: trust-page
+  detail: "Security and trust at nilo — cites ISO/IEC 27001 (via search snippet; page behind captcha)."
